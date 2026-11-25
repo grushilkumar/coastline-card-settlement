@@ -1,0 +1,21 @@
+# Coastline limits
+#
+# Read by rules/loader.py when the service starts.
+# Amounts are in whole euros.
+#
+# Reviewed by the risk committee each quarter.
+# Last review: 2026-09-30
+
+# Merchant caps
+DAILY_MERCHANT_CAP: 250000
+
+# Refunds
+REFUND_WINDOW_DAYS: 90
+
+# Manual sign-off
+# A payment above this amount waits for a person.
+APPROVAL_LIMIT: 10000
+
+# Settlement
+SETTLEMENT_START: "01:30"
+SETTLEMENT_BATCH_SIZE: 5000
